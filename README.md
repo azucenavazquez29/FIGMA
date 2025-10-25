@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # flutter_application_figma
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# FIGMA
+>>>>>>> 840f3d44adb7ff911288da0c7db90f3c86a46eb1
