@@ -4,7 +4,7 @@ import 'package:flutter_application_figma/screens/home_screen.dart';
 import 'package:flutter_application_figma/screens/map_screen.dart';
 import 'package:flutter_application_figma/screens/profile_screen.dart';
 import 'package:flutter_application_figma/screens/favorites_screen.dart';
-import 'package:flutter_application_figma/screens/settings_screen.dart';
+import 'package:flutter_application_figma/screens/seeting_screen.dart';
 import 'theme/theme_notifier.dart';
 
 void main() {
@@ -28,11 +28,10 @@ class MyApp extends StatelessWidget {
           theme: ThemeData.light(),
           darkTheme: ThemeData.dark(),
           themeMode: currentTheme,
-          initialRoute: '/login', // 🔹 Inicia en Login
+          initialRoute: '/login', //  Inicia en Login
           routes: {
             '/login': (context) => LoginScreen(themeNotifier: themeNotifier),
             '/home': (context) => HomeScreen(themeNotifier: themeNotifier),
-            '/map': (context) => MapScreen(themeNotifier: themeNotifier),
             '/profile': (context) => ProfileScreen(themeNotifier: themeNotifier),
             '/favorites': (context) => FavoritesScreen(themeNotifier: themeNotifier),
             '/settings': (context) => SettingsScreen(themeNotifier: themeNotifier),
